@@ -176,7 +176,15 @@ public class Agenda extends JFrame implements ActionListener{
         
     }
     
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
+        Agenda instance_agenda = new Agenda();
+        
+        instance_agenda.setBounds(653,350,640,250);
+        instance_agenda.setVisible(true);
+        instance_agenda.setResizable(false);
+    }*/
+    
+    public void ventanaNimbus(){
         Agenda instance_agenda = new Agenda();
         
         instance_agenda.setBounds(653,350,640,250);
